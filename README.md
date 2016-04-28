@@ -1,2 +1,2 @@
 # j5_local_manifest
-local manifest for Samsung Galaxy J5
+local manifest to build CyanogenMod 12.1 for Samsung Galaxy J5
