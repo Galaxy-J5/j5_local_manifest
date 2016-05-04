@@ -18,6 +18,7 @@
   <project name="Galaxy-J5/proprietary_vendor_samsung_j5ltexx"   path="vendor/samsung/j5ltexx"      remote="github" revision="cm-12.1" />
 <!-- J5 3G variant sources -->
   <project name="Galaxy-J5/android_device_samsung_j53gxx"        path="device/samsung/j53gxx"       remote="github" revision="cm-12.1" />
+  <project name="Galaxy-J5/proprietary_vendor_samsung_j53gxx"    path="vendor/samsung/j53gxx"       remote="github" revision="cm-12.1" />
 <!-- Single sim variants sources -->
   <project name="Galaxy-J5/android_device_samsung_j5nltexx"      path="device/samsung/j5nltexx"     remote="github" revision="cm-12.1" />
   <project name="Galaxy-J5/proprietary_vendor_samsung_j5nltexx"  path="vendor/samsung/j5nltexx"     remote="github" revision="cm-12.1" />
