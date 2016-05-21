@@ -5,7 +5,10 @@
 <!-- Remove Telecomm -->
   <remove-project name="CyanogenMod/android_packages_services_Telecomm" />
 
-<!-- Common sources -->
+<!-- TWRP sources -->
+  <project name="omnirom/android_bootable_recovery"              path="bootable/recovery-twrp"      remote="github" revision="android-6.0" />
+
+<!-- Common J5 sources -->
   <project name="Galaxy-J5/android_device_samsung_j5-common"     path="device/samsung/j5-common"    remote="github" revision="cm-12.1" />
   <project name="Galaxy-J5/proprietary_vendor_samsung_j5-common" path="vendor/samsung/j5-common"    remote="github" revision="cm-12.1" />
 
