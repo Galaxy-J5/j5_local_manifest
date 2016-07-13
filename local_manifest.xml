@@ -33,7 +33,7 @@
 <!-- SM-J5007 sources -->
   <project name="Galaxy-J5/android_device_samsung_j5ltezt"       path="device/samsung/j5ltezt"      remote="github" revision="cm-12.1" />
   <project name="Galaxy-J5/proprietary_vendor_samsung_j5ltezt"   path="vendor/samsung/j5ltezt"      remote="github" revision="cm-12.1" />
-<!-- SM-J5007 sources -->
+<!-- SM-J500Y sources -->
   <project name="Galaxy-J5/android_device_samsung_j5yltedo"       path="device/samsung/j5yltedo"      remote="github" revision="cm-12.1" />
   <project name="Galaxy-J5/proprietary_vendor_samsung_j5yltedo"   path="vendor/samsung/j5yltedo"      remote="github" revision="cm-12.1" />
 
