@@ -10,10 +10,6 @@
   <project name="Galaxy-J5/android_device_samsung_j5-common"     path="device/samsung/j5-common"    remote="github" revision="cm-12.1" />
   <project name="Galaxy-J5/proprietary_vendor_samsung_j5-common" path="vendor/samsung/j5-common"    remote="github" revision="cm-12.1" />
 
-<!-- Common J500H sources -->
-  <project name="Galaxy-J5/android_device_samsung_j53g-common"     path="device/samsung/j53g-common"    remote="github" revision="cm-12.1" />
-  <project name="Galaxy-J5/proprietary_vendor_samsung_j53g-common" path="vendor/samsung/j53g-common"    remote="github" revision="cm-12.1" />
-
 <!-- Kernel Source -->  
   <project name="Galaxy-J5/kernel_samsung_j5lte"                 path="kernel/samsung/j5lte"        remote="github" revision="cm-13.0" />
 <!-- SM-J500F sources -->
