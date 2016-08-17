@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-<!-- Remove Telecomm -->
+<!-- Remove packages -->
   <remove-project name="CyanogenMod/android_packages_services_Telecomm" />
+  <remove-project name="CyanogenMod/android_packages_apps_Dialer" />
 
 <!-- TWRP sources -->
   <project name="omnirom/android_bootable_recovery"              path="bootable/recovery-twrp"      remote="github" revision="android-6.0" />
@@ -43,4 +44,5 @@
 
 <!-- CM replacements -->
   <project path="packages/services/Telecomm" name="TheWhisp/android_packages_services_Telecomm" revision="cm-12.1" />
+  <project path="packages/apps/Dialer" name="Galaxy-J5/android_packages_apps_Dialer" revision="cm-12.1" />
 </manifest>
