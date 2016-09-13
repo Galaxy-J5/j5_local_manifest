@@ -3,7 +3,7 @@
 <!-- Remove packages -->
   <remove-project name="CyanogenMod/android_packages_services_Telecomm" />
   <remove-project name="CyanogenMod/android_packages_apps_Dialer" />
-  <remove-project name="CyanogenMod/android_frameworks_base" />
+  <!-- remove-project name="CyanogenMod/android_frameworks_base" -->
 
 <!-- TWRP sources -->
   <project name="omnirom/android_bootable_recovery"              path="bootable/recovery-twrp"      remote="github" revision="android-6.0" />
