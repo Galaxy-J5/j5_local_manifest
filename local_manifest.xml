@@ -3,9 +3,6 @@
 <!-- Remove packages -->
   <remove-project name="CyanogenMod/android_packages_services_Telecomm" />
   <remove-project name="CyanogenMod/android_packages_apps_Dialer" />
-  <remove-project name="CyanogenMod/android_system_core" />
-  <remove-project name="CyanogenMod/android_frameworks_av" />
-  <remove-project name="CyanogenMod/android_frameworks_base" />
 
 <!-- TWRP sources -->
   <project name="omnirom/android_bootable_recovery"              path="bootable/recovery-twrp"      remote="github" revision="android-6.0" />
@@ -48,7 +45,4 @@
 <!-- CM replacements -->
   <project path="packages/services/Telecomm" name="TheWhisp/android_packages_services_Telecomm" revision="cm-12.1" />
   <project path="packages/apps/Dialer" name="Galaxy-J5/android_packages_apps_Dialer" revision="cm-12.1" />
-  <project path="system/core" name="Galaxy-J5/android_system_core" revision="cm-12.1" />
-  <project path="frameworks/av" name="Galaxy-J5/android_frameworks_av" revision="cm-12.1" />
-  <project path="frameworks/base" name="Galaxy-J5/android_frameworks_base" revision="cm-12.1" />
 </manifest>
