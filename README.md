@@ -1,2 +1,2 @@
 # j5_local_manifest
-local manifest to build CyanogenMod 13.0 for Samsung Galaxy J5
+local manifest to build MultiRom for Samsung Galaxy J5 MM & LL
