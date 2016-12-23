@@ -4,10 +4,13 @@
 <remove-project name="CyanogenMod/android_packages_services_Telecomm" />
 
 <!-- Common sources -->
-    <project name="Galaxy-J5/android_device_samsung_j5-common"         path="device/samsung/j5-common"    remote="github" revision="cm-13.0" />
+    <project name="Galaxy-J5/android_device_samsung_j5-common"         path="device/samsung/j5-common"    remote="github" revision="multirom" />
     <project name="Galaxy-J5/proprietary_vendor_samsung_j5-common"     path="vendor/samsung/j5-common"    remote="github" revision="cm-13.0" />
 
-<!-- Kernel Source -->
+<!-- Kernel Source for MM bootloader -->
+    <project name="Galaxy-J5/kernel_samsung_j5lte"                     path="kernel/samsung/j5lte"        remote="github" revision="LL-MM" />
+
+<!-- Kernel Source for LL bootloader -->
     <project name="Galaxy-J5/kernel_samsung_j5lte"                     path="kernel/samsung/j5lte"        remote="github" revision="cm-13.0" />
 
 <!-- SM-J500F sources -->
@@ -23,9 +26,11 @@
     <project name="CyanogenMod/android_hardware_samsung"               path="hardware/samsung"            remote="github" revision="cm-13.0" />
     <project name="CyanogenMod/android_external_mm-dash"               path="external/mm-dash"            remote="github" revision="cm-13.0" />
 
-<!-- TWRP sources -->
-    <project name="omnirom/android_bootable_recovery"                  path="bootable/recovery-twrp"      remote="github" revision="android-6.0" />
+<!-- multirom sources -->
+    <project name="nkk71/android_bootable_recovery"                  path="bootable/recovery-twrp"       remote="github" revision="android-6.0-mrom" />
     <project name="CyanogenMod/android_external_busybox"               path="external/busybox"            remote="github" revision="cm-13.0" />
+    <project name="nkk71/multirom"                                     path="system/extras/multirom"      remote="github" revision="master" />
+    <project name="Tasssadar/libbootimg"                               path="system/extras/libbootimg"    remote="github" revision="master" />
 
 <!-- Other -->
     <project name="CyanogenMod/android_external_stlport"               path="external/stlport"            revision="cm-13.0" />
