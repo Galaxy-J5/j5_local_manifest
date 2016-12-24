@@ -8,17 +8,27 @@
     <project name="Galaxy-J5/proprietary_vendor_samsung_j5-common"     path="vendor/samsung/j5-common"    remote="github" revision="cm-13.0" />
 
 <!-- Kernel Source for MM bootloader -->
-    <project name="Galaxy-J5/kernel_samsung_j5lte"                     path="kernel/samsung/j5lte"        remote="github" revision="LL-MM" />
+    <project name="Galaxy-J5/kernel_samsung_j5lte"                     path="kernel/samsung/j5lte_MM"        remote="github" revision="LL-MM" />
 
 <!-- Kernel Source for LL bootloader -->
-    <project name="Galaxy-J5/kernel_samsung_j5lte"                     path="kernel/samsung/j5lte"        remote="github" revision="cm-13.0" />
+    <project name="Galaxy-J5/kernel_samsung_j5lte"                     path="kernel/samsung/j5lte_LL"        remote="github" revision="cm-13.0" />
 
 <!-- SM-J500F sources -->
-    <project name="Galaxy-J5/android_device_samsung_j5ltexx"           path="device/samsung/j5ltexx"      remote="github" revision="cm-13.0" />
-    <project name="Galaxy-J5/proprietary_vendor_samsung_j5ltexx"       path="vendor/samsung/j5ltexx"      remote="github" revision="cm-13.0" />
+    <project name="Galaxy-J5/android_device_samsung_j5ltexx"           path="device/samsung/j5ltexx"      remote="github" revision="multirom" />
 <!-- SM-J500FN sources -->
-    <project name="Galaxy-J5/android_device_samsung_j5nltexx"          path="device/samsung/j5nltexx"     remote="github" revision="cm-13.0" />
-    <project name="Galaxy-J5/proprietary_vendor_samsung_j5nltexx"      path="vendor/samsung/j5nltexx"     remote="github" revision="cm-13.0" />
+    <project name="Galaxy-J5/android_device_samsung_j5nltexx"          path="device/samsung/j5nltexx"     remote="github" revision="multirom" />
+<!-- SM-J500M sources -->
+  <project name="Galaxy-J5/android_device_samsung_j5lteub"       path="device/samsung/j5lteub"      remote="github" revision="multirom" />
+<!-- SM-J500G sources -->
+  <project name="Galaxy-J5/android_device_samsung_j5ltedx"       path="device/samsung/j5ltedx"      remote="github" revision="multirom" />
+<!-- SM-J500H sources -->
+  <project name="Galaxy-J5/android_device_samsung_j53gxx"        path="device/samsung/j53gxx"       remote="github" revision="multirom" />
+<!-- SM-J500Y sources -->
+  <project name="Galaxy-J5/android_device_samsung_j5yltedo"      path="device/samsung/j5yltedo"     remote="github" revision="multirom" />
+<!-- SM-J5007 sources -->
+  <project name="Galaxy-J5/android_device_samsung_j5ltezt"       path="device/samsung/j5ltezt"      remote="github" revision="multirom" />
+<!-- SM-J5008 sources -->
+  <project name="Galaxy-J5/android_device_samsung_j5ltechn"      path="device/samsung/j5ltechn"     remote="github" revision="multirom" />
 
 <!-- Hardware -->  
     <project name="CyanogenMod/android_device_samsung_qcom-common"     path="device/samsung/qcom-common"  remote="github" revision="cm-13.0" />
